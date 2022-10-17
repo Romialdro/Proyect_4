@@ -24,7 +24,10 @@ section{
     border: 3px solid #ff4400;
     display: grid;
     grid-template-columns:repeat(5, 280px);
-    grid-template-rows: repeat(3, 250);
+    /*grid-template-rows: repeat(3, 250);
+    grid-template-areas: 
+    "tarjeta 1 tarjeta1."
+    "tarjeta 2 tarjeta 3"; */
     align-items: flex-start;
     grid-gap: 50px ;
    /* display: flex;
